@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94F5413620C3D17C0045B119 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F5413520C3D17C0045B119 /* AppDelegate.m */; };
+		94F5413920C3D17C0045B119 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F5413820C3D17C0045B119 /* ViewController.m */; };
+		94F5413C20C3D17C0045B119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F5413A20C3D17C0045B119 /* Main.storyboard */; };
+		94F5413F20C3D17C0045B119 /* Raccool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94F5413D20C3D17C0045B119 /* Raccool.xcdatamodeld */; };
+		94F5414120C3D17D0045B119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F5414020C3D17D0045B119 /* Assets.xcassets */; };
+		94F5414420C3D17D0045B119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F5414220C3D17D0045B119 /* LaunchScreen.storyboard */; };
+		94F5414720C3D17D0045B119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F5414620C3D17D0045B119 /* main.m */; };
+		94F5415120C3D17D0045B119 /* RaccoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F5415020C3D17D0045B119 /* RaccoolTests.m */; };
+		94F5415C20C3D17D0045B119 /* RaccoolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F5415B20C3D17D0045B119 /* RaccoolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94F5414D20C3D17D0045B119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F5412920C3D17C0045B119 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94F5413020C3D17C0045B119;
+			remoteInfo = Raccool;
+		};
+		94F5415820C3D17D0045B119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F5412920C3D17C0045B119 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94F5413020C3D17C0045B119;
+			remoteInfo = Raccool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94F5413120C3D17C0045B119 /* Raccool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raccool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F5413420C3D17C0045B119 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94F5413520C3D17C0045B119 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94F5413720C3D17C0045B119 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94F5413820C3D17C0045B119 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94F5413B20C3D17C0045B119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94F5413E20C3D17C0045B119 /* Raccool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Raccool.xcdatamodel; sourceTree = "<group>"; };
+		94F5414020C3D17D0045B119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94F5414320C3D17D0045B119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94F5414520C3D17D0045B119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F5414620C3D17D0045B119 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94F5414C20C3D17D0045B119 /* RaccoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaccoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F5415020C3D17D0045B119 /* RaccoolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaccoolTests.m; sourceTree = "<group>"; };
+		94F5415220C3D17D0045B119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F5415720C3D17D0045B119 /* RaccoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaccoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F5415B20C3D17D0045B119 /* RaccoolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaccoolUITests.m; sourceTree = "<group>"; };
+		94F5415D20C3D17D0045B119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94F5412E20C3D17C0045B119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F5414920C3D17D0045B119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F5415420C3D17D0045B119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94F5412820C3D17C0045B119 = {
+			isa = PBXGroup;
+			children = (
+				94F5413320C3D17C0045B119 /* Raccool */,
+				94F5414F20C3D17D0045B119 /* RaccoolTests */,
+				94F5415A20C3D17D0045B119 /* RaccoolUITests */,
+				94F5413220C3D17C0045B119 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94F5413220C3D17C0045B119 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94F5413120C3D17C0045B119 /* Raccool.app */,
+				94F5414C20C3D17D0045B119 /* RaccoolTests.xctest */,
+				94F5415720C3D17D0045B119 /* RaccoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94F5413320C3D17C0045B119 /* Raccool */ = {
+			isa = PBXGroup;
+			children = (
+				94F5413420C3D17C0045B119 /* AppDelegate.h */,
+				94F5413520C3D17C0045B119 /* AppDelegate.m */,
+				94F5413720C3D17C0045B119 /* ViewController.h */,
+				94F5413820C3D17C0045B119 /* ViewController.m */,
+				94F5413A20C3D17C0045B119 /* Main.storyboard */,
+				94F5414020C3D17D0045B119 /* Assets.xcassets */,
+				94F5414220C3D17D0045B119 /* LaunchScreen.storyboard */,
+				94F5414520C3D17D0045B119 /* Info.plist */,
+				94F5414620C3D17D0045B119 /* main.m */,
+				94F5413D20C3D17C0045B119 /* Raccool.xcdatamodeld */,
+			);
+			path = Raccool;
+			sourceTree = "<group>";
+		};
+		94F5414F20C3D17D0045B119 /* RaccoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				94F5415020C3D17D0045B119 /* RaccoolTests.m */,
+				94F5415220C3D17D0045B119 /* Info.plist */,
+			);
+			path = RaccoolTests;
+			sourceTree = "<group>";
+		};
+		94F5415A20C3D17D0045B119 /* RaccoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94F5415B20C3D17D0045B119 /* RaccoolUITests.m */,
+				94F5415D20C3D17D0045B119 /* Info.plist */,
+			);
+			path = RaccoolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94F5413020C3D17C0045B119 /* Raccool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F5416020C3D17D0045B119 /* Build configuration list for PBXNativeTarget "Raccool" */;
+			buildPhases = (
+				94F5412D20C3D17C0045B119 /* Sources */,
+				94F5412E20C3D17C0045B119 /* Frameworks */,
+				94F5412F20C3D17C0045B119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raccool;
+			productName = Raccool;
+			productReference = 94F5413120C3D17C0045B119 /* Raccool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94F5414B20C3D17D0045B119 /* RaccoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F5416320C3D17D0045B119 /* Build configuration list for PBXNativeTarget "RaccoolTests" */;
+			buildPhases = (
+				94F5414820C3D17D0045B119 /* Sources */,
+				94F5414920C3D17D0045B119 /* Frameworks */,
+				94F5414A20C3D17D0045B119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94F5414E20C3D17D0045B119 /* PBXTargetDependency */,
+			);
+			name = RaccoolTests;
+			productName = RaccoolTests;
+			productReference = 94F5414C20C3D17D0045B119 /* RaccoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94F5415620C3D17D0045B119 /* RaccoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F5416620C3D17D0045B119 /* Build configuration list for PBXNativeTarget "RaccoolUITests" */;
+			buildPhases = (
+				94F5415320C3D17D0045B119 /* Sources */,
+				94F5415420C3D17D0045B119 /* Frameworks */,
+				94F5415520C3D17D0045B119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94F5415920C3D17D0045B119 /* PBXTargetDependency */,
+			);
+			name = RaccoolUITests;
+			productName = RaccoolUITests;
+			productReference = 94F5415720C3D17D0045B119 /* RaccoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94F5412920C3D17C0045B119 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = jackiossy;
+				TargetAttributes = {
+					94F5413020C3D17C0045B119 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					94F5414B20C3D17D0045B119 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 94F5413020C3D17C0045B119;
+					};
+					94F5415620C3D17D0045B119 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 94F5413020C3D17C0045B119;
+					};
+				};
+			};
+			buildConfigurationList = 94F5412C20C3D17C0045B119 /* Build configuration list for PBXProject "Raccool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94F5412820C3D17C0045B119;
+			productRefGroup = 94F5413220C3D17C0045B119 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94F5413020C3D17C0045B119 /* Raccool */,
+				94F5414B20C3D17D0045B119 /* RaccoolTests */,
+				94F5415620C3D17D0045B119 /* RaccoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94F5412F20C3D17C0045B119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F5414420C3D17D0045B119 /* LaunchScreen.storyboard in Resources */,
+				94F5414120C3D17D0045B119 /* Assets.xcassets in Resources */,
+				94F5413C20C3D17C0045B119 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F5414A20C3D17D0045B119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F5415520C3D17D0045B119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94F5412D20C3D17C0045B119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F5413F20C3D17C0045B119 /* Raccool.xcdatamodeld in Sources */,
+				94F5413920C3D17C0045B119 /* ViewController.m in Sources */,
+				94F5414720C3D17D0045B119 /* main.m in Sources */,
+				94F5413620C3D17C0045B119 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F5414820C3D17D0045B119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F5415120C3D17D0045B119 /* RaccoolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F5415320C3D17D0045B119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F5415C20C3D17D0045B119 /* RaccoolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94F5414E20C3D17D0045B119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94F5413020C3D17C0045B119 /* Raccool */;
+			targetProxy = 94F5414D20C3D17D0045B119 /* PBXContainerItemProxy */;
+		};
+		94F5415920C3D17D0045B119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94F5413020C3D17C0045B119 /* Raccool */;
+			targetProxy = 94F5415820C3D17D0045B119 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94F5413A20C3D17C0045B119 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F5413B20C3D17C0045B119 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94F5414220C3D17D0045B119 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F5414320C3D17D0045B119 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94F5415E20C3D17D0045B119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94F5415F20C3D17D0045B119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94F5416120C3D17D0045B119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHXHCYAG8H;
+				INFOPLIST_FILE = Raccool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackiossy.Raccool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94F5416220C3D17D0045B119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHXHCYAG8H;
+				INFOPLIST_FILE = Raccool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackiossy.Raccool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94F5416420C3D17D0045B119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHXHCYAG8H;
+				INFOPLIST_FILE = RaccoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackiossy.RaccoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raccool.app/Raccool";
+			};
+			name = Debug;
+		};
+		94F5416520C3D17D0045B119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHXHCYAG8H;
+				INFOPLIST_FILE = RaccoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackiossy.RaccoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raccool.app/Raccool";
+			};
+			name = Release;
+		};
+		94F5416720C3D17D0045B119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHXHCYAG8H;
+				INFOPLIST_FILE = RaccoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackiossy.RaccoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Raccool;
+			};
+			name = Debug;
+		};
+		94F5416820C3D17D0045B119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHXHCYAG8H;
+				INFOPLIST_FILE = RaccoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackiossy.RaccoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Raccool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94F5412C20C3D17C0045B119 /* Build configuration list for PBXProject "Raccool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F5415E20C3D17D0045B119 /* Debug */,
+				94F5415F20C3D17D0045B119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F5416020C3D17D0045B119 /* Build configuration list for PBXNativeTarget "Raccool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F5416120C3D17D0045B119 /* Debug */,
+				94F5416220C3D17D0045B119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F5416320C3D17D0045B119 /* Build configuration list for PBXNativeTarget "RaccoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F5416420C3D17D0045B119 /* Debug */,
+				94F5416520C3D17D0045B119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F5416620C3D17D0045B119 /* Build configuration list for PBXNativeTarget "RaccoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F5416720C3D17D0045B119 /* Debug */,
+				94F5416820C3D17D0045B119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94F5413D20C3D17C0045B119 /* Raccool.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94F5413E20C3D17C0045B119 /* Raccool.xcdatamodel */,
+			);
+			currentVersion = 94F5413E20C3D17C0045B119 /* Raccool.xcdatamodel */;
+			path = Raccool.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94F5412920C3D17C0045B119 /* Project object */;
+}
